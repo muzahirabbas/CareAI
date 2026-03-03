@@ -1,0 +1,7 @@
+name = "care-upload-worker"
+main = "src/index.ts"
+compatibility_date = "2024-11-12"
+
+[[r2_buckets]]
+binding = "CARE_ASSETS"
+bucket_name = "xxx"

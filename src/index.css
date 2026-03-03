@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 transition-colors duration-300;
+  }
+  
+  html.dark body {
+    @apply bg-dark-bg text-dark-text;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/40 shadow-glass;
+  }
+  
+  .glass-dark {
+    @apply bg-dark-surface/70 backdrop-blur-md border border-dark-border/40 shadow-glass-dark;
+  }
+  
+  /* Smooth scrolling for anchor links */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar for webkit (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-full hover:bg-gray-400 transition-colors;
+  }
+  
+  html.dark ::-webkit-scrollbar-thumb {
+    @apply bg-dark-border hover:bg-gray-600;
+  }
+}

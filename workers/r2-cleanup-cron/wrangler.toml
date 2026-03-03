@@ -1,0 +1,12 @@
+name = "r2-cleanup-cron"
+main = "index.js"
+compatibility_date = "2024-02-25"
+
+# Run at minute 0 past every 48th hour (basically every 2 days)
+# Cron: 0 0 */2 * *
+[triggers]
+crons = ["0 0 */2 * *"]
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "xxx"

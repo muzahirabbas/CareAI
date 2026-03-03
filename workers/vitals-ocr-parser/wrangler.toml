@@ -1,0 +1,7 @@
+name = "vitals-ocr-parser"
+main = "index.js"
+compatibility_date = "2024-02-25"
+
+[vars]
+# Injected from the user's prompt directly for immediate deployment
+GEMINI_API_KEY = "x"
