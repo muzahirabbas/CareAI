@@ -1,6 +1,6 @@
-# TransplantCare Pro (Caregiver & Patient PWA)
+# CareAI Pro (Caregiver & Patient PWA)
 
-TransplantCare Pro is a sophisticated Progressive Web Application (PWA) designed to bridge the gap between caregivers and patients, specifically tailored for transplant recovery and chronic care management. It leverages cutting-edge AI for medical document parsing, real-time notifications, and data-driven health insights.
+CareAI is a sophisticated Progressive Web Application (PWA) designed to bridge the gap between caregivers and patients, specifically tailored for transplant recovery and chronic care management. It leverages cutting-edge AI for medical document parsing, real-time notifications, and data-driven health insights.
 
 ## 🚀 Features
 
